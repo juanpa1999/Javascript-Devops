@@ -1,0 +1,6 @@
+back:
+  authtoken: 2hoA6R7UpCzTFcItOMB9PgIs06R_67gLXogigpQXzZDkhxr8s
+  tunnels:
+    api:
+      proto: http
+      addr: 8000

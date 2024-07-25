@@ -1,0 +1,6 @@
+front:
+  authtoken: 2hoIhjbhpqY9o82jBTp6i3SLBsZ_81nfgo2WKh8GAfiHL9sBg
+  tunnels:
+    web:
+      proto: http
+      addr: 3000

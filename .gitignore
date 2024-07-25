@@ -1,0 +1,120 @@
+# Ignorar archivos y carpetas dentro de la carpeta 'back'
+
+# Byte-compiled / optimized / DLL files
+back/__pycache__/
+back/*.py[cod]
+back/*$py.class
+
+# C extensions
+back/*.so
+
+# Distribution / packaging
+back/.Python
+back/build/
+back/develop-eggs/
+back/dist/
+back/downloads/
+back/eggs/
+back/.eggs/
+back/lib/
+back/lib64/
+back/parts/
+back/sdist/
+back/var/
+back/wheels/
+back/share/python-wheels/
+back/*.egg-info/
+back/.installed.cfg
+back/*.egg
+back/MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+back/*.manifest
+back/*.spec
+
+# Installer logs
+back/pip-log.txt
+back/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+back/htmlcov/
+back/.tox/
+back/.nox/
+back/.coverage
+back/.coverage.*
+back/.cache
+back/nosetests.xml
+back/coverage.xml
+back/*.cover
+back/*.py,cover
+back/.hypothesis/
+back/.pytest_cache/
+back/cover/
+
+# Translations
+back/*.mo
+back/*.pot
+
+# Django stuff:
+back/*.log
+back/local_settings.py
+back/db.sqlite3
+back/db.sqlite3-journal
+
+# Flask stuff:
+back/instance/
+back/.webassets-cache
+
+# Scrapy stuff:
+back/.scrapy
+
+# Sphinx documentation
+back/docs/_build/
+
+# PyBuilder
+back/.pybuilder/
+back/target/
+
+# Jupyter Notebook
+back/.ipynb_checkpoints
+
+# IPython
+back/profile_default/
+back/ipython_config.py
+
+# PyCharm
+# JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+# be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# and can be added to the global gitignore or merged into this file. For a more nuclear
+# option (not recommended) you can uncomment the following to ignore the entire idea folder.
+# back/.idea/
+
+
+
+
+
+
+# Ignorar archivos y carpetas dentro de la carpeta 'front'
+
+# Dependencies
+front/node_modules/
+front/.pnp/
+front/.pnp.js
+
+# Testing
+front/coverage/
+
+# Production
+front/build/
+
+# Miscellaneous
+front/.DS_Store
+front/.env.local
+front/.env.development.local
+front/.env.test.local
+front/.env.production.local
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
