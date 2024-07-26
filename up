@@ -22,6 +22,6 @@ docker exec -it back_cont alembic upgrade head
 
 cd ../front
 docker build -t front_img .
-docker run -d --name front_cont -p 3000:3000 -v "$PWD:/usr/src/app" front_img
+docker run -d --name front_cont -p 3000:3000 front_img
 docker stop front_cont
 docker start front_cont
