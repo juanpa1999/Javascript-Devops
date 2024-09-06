@@ -77,3 +77,6 @@ Y para detener los contenedores de Docker, utiliza el siguiente script:
 ```bash
 sudo ./deleter.sh
 ```
+
+
+Tocken: refoenergy123!
